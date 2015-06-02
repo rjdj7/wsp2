@@ -3,10 +3,29 @@
 WSP COMPONENT LIBRARY STYLESHEET
 ================================================================================ */
 
-
+body {
+	font-family: Garamond;
+	margin: 20px 100px 20px 100px;
+}
 
 /* HEADER SPECIFIC ======================================== */
 
+header {
+	border-bottom: solid 2px #FF9900;
+	padding-bottom: 5px;
+}
+
+h1, h2, h3 {
+	font-family: "Gill Sans" bold;
+}
+
 /* ABOUT SPECIFIC ======================================== */
+
+#portrait {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
 
 /* COMPONENTS SPECIFIC ======================================== */
