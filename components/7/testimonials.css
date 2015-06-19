@@ -3,6 +3,42 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+/* TESTIMONIALS ======================================== */
 
-/* HEADER ======================================== */
+section {
+	text-align: center;
+	background-color: #00BCD5;
+	padding: 35px;
+}
+
+section h1 {
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 16px;
+}
+
+article {
+	display: inline-block;
+	width: 300px;
+	margin-bottom: 15px;
+}
+
+article img {
+	float: left;
+}
+
+article q {
+	color: #70ECEF;
+	font-size: 11px;
+	display: inline-block;
+	width: 200px;
+	text-align: left;
+}
+
+article h2 {
+	margin-bottom: 20px;
+	color: #F5E670;
+	font-size: 14px;
+}
+
+/* TESTIMONIALS ======================================== */

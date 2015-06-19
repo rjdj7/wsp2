@@ -5,4 +5,25 @@ COMPONENT STYLESHEET
 
 /* HEADER ======================================== */
 
+header {
+	background-color: #333333;
+	padding: 50px 0px 50px 0px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+header h1 {
+
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+header h2 {
+	position: relative;
+	right: 90px;
+}
+
 /* HEADER ======================================== */

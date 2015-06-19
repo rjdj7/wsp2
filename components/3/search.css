@@ -3,6 +3,46 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+/* SEARCH ======================================== */
 
-/* HEADER ======================================== */
+nav {
+	background-color: #D05166;
+	color: #FA607C;
+	text-align: center;
+	padding: 10px;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+nav form input {
+	background-color: #FA607C;
+	margin-right: 25px;
+	width: 150px;
+	height: 18px;
+}
+
+nav form label {
+	margin-right: 5px;
+}
+
+nav form a {
+	margin-right: 40px;
+	color: #FA607C;
+}
+
+nav form a:nth-last-child(1) {
+	color: #fff;
+}
+
+@media (max-width: 650px) {
+
+	nav form input {
+		margin-right: 5px;
+	}
+
+	nav form a {
+		margin-right: 5px;
+	}
+}
+
+/* SEARCH ======================================== */

@@ -3,6 +3,38 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+/* FEATURED ======================================== */
 
-/* HEADER ======================================== */
+section {
+	background-image: url("featured.jpg");
+	text-align: center;
+	color: #fff;
+	padding: 80px;
+}
+
+section time {
+	color: #398F72;
+	font-size: 8px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+section p {
+	font-size: 8px;
+	margin-bottom: 30px;
+}
+
+section a {
+	color: #fff;
+	font-size: 10px;
+	border: solid 2px #fff;
+	padding: 6px 15px 6px 15px;
+	font-weight: bold;
+}
+
+section h1 {
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+/* FEATURED ======================================== */

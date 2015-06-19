@@ -3,6 +3,39 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+/* TEAM ======================================== */
 
-/* HEADER ======================================== */
+#team {
+	background-color: #F5F5F5;
+}
+
+#team article {
+	display: inline-block;
+	width: 600px;
+	border: solid 1px #999999;
+	background-color: #fff;
+	margin: 20px;
+	padding: 40px 0px 40px 0px;
+	color: #FF3300;
+}
+
+#team article:hover {
+	background-color: #FF3300;
+	color: #fff;
+}
+
+#team article h1 {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 22px;
+}
+
+#team article p {
+	margin-left: 118px;
+}
+
+#team article img {
+	float: left;
+}
+
+/* TEAM ======================================== */
