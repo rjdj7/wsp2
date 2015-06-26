@@ -5,18 +5,48 @@ COMPONENT STYLESHEET
 
 /* SIGNUP ======================================== */
 
+@-webkit-keyframes pulsate {
+    from { 
+    	background-color: #CC0000; 
+    	-webkit-box-shadow: 0 0 9px #333; 
+    }
+    50% { 
+    	background-color: #DB4D4D; 
+    	-webkit-box-shadow: 0 0 18px #CC0000; 
+    }
+    to { 
+    	background-color: #CC0000; 
+    	-webkit-box-shadow: 0 0 9px #333; 
+    }
+}
+
+@keyframes pulsate {
+    from { 
+    	background-color: #CC0000; 
+    	-webkit-box-shadow: 0 0 9px #333; 
+    }
+    50% { 
+    	background-color: #DB4D4D; 
+    	-webkit-box-shadow: 0 0 18px #CC0000; 
+    }
+    to { 
+    	background-color: #CC0000; 
+    	-webkit-box-shadow: 0 0 9px #333; 
+    }
+}
+
 #register {
 	border-top: solid 4px #CC0000;
 }
 
-#signIn {
+#register > p {
 	text-align: right;
 	background-color: #DADADA;
 	padding: 10px 100px 10px 0px;
 	font-size: 12px;
 }
 
-#signIn a {
+#register > p a {
 	text-transform: uppercase;
 }
 
@@ -71,7 +101,17 @@ COMPONENT STYLESHEET
 	background-color: #454545;
 	font-size: 10px;
 	width: 125px;
-	border-radius: 3px;
+}
+
+#rbutton:hover {
+	-webkit-animation-name: pulsate;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-name: pulsate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 /* SIGNUP ======================================== */

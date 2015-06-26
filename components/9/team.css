@@ -38,4 +38,12 @@ COMPONENT STYLESHEET
 	float: left;
 }
 
+@media (max-width: 650px) {
+
+	#team article {
+		width: 375px;
+	}
+
+}
+
 /* TEAM ======================================== */

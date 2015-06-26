@@ -5,6 +5,28 @@ COMPONENT STYLESHEET
 
 /* FEATURED ======================================== */
 
+@keyframes expand {
+	from {
+		padding: 6px 15px 6px 15px;
+		font-size: 10px;
+	}
+	to {
+		padding: 9px 18px 9px 18px;
+		font-size: 12px;
+	}
+}
+
+@-webkit-keyframes expand {
+	from {
+		padding: 6px 15px 6px 15px;
+		font-size: 10px;
+	}
+	to {
+		padding: 9px 18px 9px 18px;
+		font-size: 12px;
+	}
+}
+
 section {
 	background-image: url("featured.jpg");
 	text-align: center;
@@ -32,9 +54,22 @@ section a {
 	font-weight: bold;
 }
 
+section a:hover {
+	-webkit-animation-name: expand;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: expand;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 section h1 {
 	font-size: 20px;
 	margin-bottom: 8px;
 }
+
+
 
 /* FEATURED ======================================== */
